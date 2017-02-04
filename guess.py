@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-#Guessing game
+#Guessing game -Shobi  P P
+#Simple number Guessing Game for beginners
 
 import random
 secret=random.randint(1,10)
@@ -9,7 +10,7 @@ print("**********************")
 print("Give me Your Name")
 name=input()
 print("Welcome "+ name)
-for guesstaken in range(1,7):
+for guesstaken in range(1,6):
 	print("\nTake a Guess! "+ name)
 	guess=int(input())
 	if(guess<secret):
