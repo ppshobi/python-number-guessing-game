@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-#Guessing game
+#Guessing game -Shobi  P P
+#Simple number Guessing Game for beginners
 
 import random
 secret=random.randint(1,10)
